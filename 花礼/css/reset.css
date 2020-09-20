@@ -1,0 +1,31 @@
+/*花礼网项目样式重置*/
+body,a,ul,li,p,span,h1,h2,h3,h4,h5,h6,div,button{
+	margin: 0;
+	padding: 0;
+}
+a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color:orangered !important;
+}
+li{
+	float: left;
+	list-style-type: none;
+}
+div{
+	overflow: hidden;
+}
+a,button{
+	cursor: pointer;
+}
+button{
+	border: none;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+}

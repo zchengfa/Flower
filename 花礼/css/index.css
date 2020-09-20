@@ -1,0 +1,362 @@
+body{
+	width:100%;
+	height:2000px
+}
+#flower-head,.head-nav{
+	width: inherit;
+	min-width: 1200px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+}
+#flower-head .head-nav .head-nav-box,
+.head-container .container
+{
+	width: 65%;
+	min-width: 1100px;
+	margin: 0 auto;
+}
+#flower-head .head-logo a{
+	display: block;
+	width:300px ;
+	height: 75px;
+	background-image: url(../static/images/花礼网_03.jpg);
+	background-repeat: no-repeat;
+}
+#flower-head .head-nav-left{
+	float: left;
+}
+#flower-head .head-nav-right{
+	float: right;
+}
+#flower-head ul li{
+	margin: 0 1em;
+}
+ .container div{
+	display: inline-block;
+	
+}
+#flower-head .container .search-box{
+	position: relative;
+	top:30px;
+}
+#flower-head .search-box div{
+	display: block;
+	margin:0;
+}
+/* .#flower-head .search-box .search-group{
+	position: relative;
+} */
+.search-box .search-input input{
+	width: 400px;
+	height: 40px;
+	border: 2px solid orangered;
+	border-radius: 30px;
+	font-size: 16px;
+	text-indent: 40px;
+}
+
+.search-input img{
+	position: relative;
+	left:45px ;
+	top: 10px;
+	
+}
+.search-input button{
+	position: relative;
+	right: 85px;
+	top:1px;
+	width: 80px;
+	height: 44.5px;
+	background-color: orangered;
+	border: none;
+	border-radius: 21px;
+	color: white;
+	font-size: 16px;
+	font-weight: bolder;
+}
+#flower-head .search-box .search-hot-words{
+	margin-left: 75px;
+	width: 300px;
+}
+.search-box .search-hot-words a{
+	display: inline-block;
+	margin: 5px 10px;
+	color: darkgray;
+	font-size: 12px;
+}
+#flower-head .head-container  .service {
+	margin-top: 20px;
+	font-size: 12px;
+}
+.service div {
+	margin-right: 30px;
+	color: #A9A9A9;
+}
+.service div img{
+	position: relative;
+	top:10px;
+}
+/*花礼网中部内容*/
+#flower-section{
+	margin-top: 120px;
+	width: 100%;
+	height: 300px;
+}
+#flower-section .category-box{
+	margin: 1rem auto 0;
+	width: 65%;
+	min-width: 1100px;
+}
+.category-box div{
+	display: inline-block;
+	height: 40px;
+}
+.category-box .all-category{
+	width:15%;
+	min-width: 160px;
+	background-color: orangered;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.all-category a{
+	position: relative;
+	top: 4px;
+	left: 16px;
+	color: white;
+}
+.all-category a:hover{
+	color: white !important;
+}
+.all-category img{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.category-box .category-list a{
+	display: block;
+	margin: 0 0 0 1.5rem;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bolder;
+}
+.category-list li:nth-child(9) a{
+	color: orangered;
+}
+/*广告轮播部分*/
+#flower-section .adv-banner{
+	width: 100%;
+	min-width: 1200px;
+	height: 485px;
+}
+.adv-banner .control-box{
+	position: relative;
+	bottom: 16%;
+	width:100%;
+	min-width: 1200px;
+	text-align: center;
+	opacity: 0.5;
+}
+.adv-banner .control-box a{
+	margin: 0 5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: dimgray;
+}
+.adv-banner .button-control{
+	position: absolute;
+	width: 100%;
+	top:50%;
+}
+/*上一页下一页按钮*/
+.adv-banner .button-control .prev{
+	float: left;
+	margin-left: 20%;
+	background-image: url(../static/images/prev.jpg);
+}
+.adv-banner .button-control .next{
+	float: right;
+	margin-right: 20%;
+	background-image: url(../static/images/next.jpg);
+}
+.prev,.next{
+	width: 52px;
+	height:52px;
+	background-color: gray;
+	border-radius: 26px;
+	opacity: 0.8;
+}
+/*主要服务*/
+#flower-section .main-server{
+	margin: 1rem auto;
+	width: 65%;
+	min-width: 1200px;
+}
+.main-server img{
+	position: relative;
+	top: 6px;
+	width: 25px;
+	height: 25px;
+}
+.main-server ul li{
+	margin: 0 2.5rem;
+}
+.main-server a{
+	display: inline-block;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-weight: bolder;
+	text-indent: 10px;
+}
+/*节日部分*/
+#flower-section .festival{
+	margin: 0 auto;
+	width:1200px;
+}
+.festival .festival-banner img{
+	width: 100%;
+}
+.festival .festival-box{
+	width: 100%;
+	height: 200px;
+	background-color: brown;
+}
+/* .festival .festival-box .festival-pro:nth-child(4){
+	float: right;
+	margin-right: 0;
+} */
+.festival .festival-box .festival-pro{
+	margin: 10px 10px;
+	float: left;
+	width: 280px;
+	height: 180px;
+	background-color: white;
+	border-radius: 8px;
+}
+.festival-box .festival-pro p{
+	position: relative;
+	top:30px;
+	left: 18px;
+	margin-top: 10px;
+	width: 100px;
+	font-size: 14px;
+}
+.festival-pro p:nth-child(2){
+	color: gray;
+}
+.festival-pro p:nth-child(3){
+	font-size: 18px;
+	font-weight: bolder;
+	color: brown;
+}
+.festival-box .festival-pro img{
+	position:relative;
+	top:-70px;
+	right: -115px;
+	width: 164px;
+	height: 144px;
+}
+.festival-pro a{
+	height: 180px;
+}
+.festival-pro a:hover{
+	color:black !important;
+}
+/*场景入口*/
+#flower-section .scene{
+	margin: 20px auto;
+	width: 1200px;
+}
+.scene div{
+	border-radius: 8px;
+}
+.scene .scene-list{
+	float: left;
+	margin: 0 6px;
+}
+.scene .scene-list:nth-child(1){
+	margin-left: 0;
+}
+.scene-list:nth-child(2) .scene-item-horizontal:nth-child(2){
+	margin-top: 11px;
+}
+.scene-list:nth-child(4) .scene-item-horizontal:nth-child(2){
+	margin-top: 7px;
+}
+.scene .scene-list:nth-child(4){
+	float: right;
+	margin-right: 0;
+}
+.scene-item-vertical-mini{
+	display: inline-block;
+}
+.scene-item-vertical-mini:nth-child(2){
+	float: right;
+}
+/*鲜花专区*/
+#flower-section .fl-wrapper{
+	width: 100%;
+	height: 3000px;
+	background-color: #F7F9FA;
+}
+.fl-wrapper .flower{
+	margin: 1rem auto;
+	width: 1200px;
+}
+.flower .flower-hd h3{
+	float: left;
+}
+.flower-hd h3 a{
+	font-size: 25px;
+}
+.flower-hd h3 span{
+	margin-left: 1rem;
+	padding-left: 10px;
+	border-left:1px solid black;
+	font-size: 16px;
+	font-weight: 400;
+}
+.flower .flower-hd .more{
+	float: right;
+	color: gray;
+	font-size: 14px;
+}
+.flower-bd{
+	margin: 20px auto;
+}
+.flower-bd .bd-left{
+	float: left;
+	width: 288px;
+	height:656px
+}
+.flower-bd .bd-right{
+	float: right;
+	margin-left: 20px;
+	width: 892px;
+}
+.bd-right ul li{
+	margin:0 0 10px 10px ;
+}
+.bd-right div{
+	width: 212px;
+	height:320px;
+	background-color: white;
+	text-align: center;
+}
+.bd-right div p{
+	margin-top: 6px;
+}
+.bd-right div p:nth-child(2){
+	font-size: 17px;
+	text-indent: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bd-right div p:nth-child(3){
+	font-weight: bolder;
+}
+.bd-right div p:nth-child(4){
+	font-size: 12px;
+}
