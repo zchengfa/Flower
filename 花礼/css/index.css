@@ -297,7 +297,7 @@ body{
 /*鲜花专区*/
 #flower-section .fl-wrapper{
 	width: 100%;
-	height: 3000px;
+	height: 6000px;
 	background-color: #F7F9FA;
 }
 .fl-wrapper .flower{
@@ -359,4 +359,89 @@ body{
 }
 .bd-right div p:nth-child(4){
 	font-size: 12px;
+}
+/*蛋糕部分*/
+.fl-wrapper .fl-cake{
+	width: 100%;
+	background-color: #F7F9FA;
+}
+.fl-cake .fl-cake-container{
+	margin: 1rem auto;
+	width: 1200px;
+	background-color: white;
+}
+.fl-cake .fl-cake-container .flower-hd{
+	background-color: #F7F9FA;
+}
+.fl-cake-box{
+	margin-top: 15px;
+}
+.fl-cake-box .fl-cake-b-hd .fl-c-hd-title{
+	float: left;
+	width: 275px;
+	height: 46px;
+	font-size: 16px;
+	color: white;
+	background-color: #ff582f;
+	border-top-right-radius: 23px;
+	border-bottom-right-radius: 23px;
+}
+.fl-cake-b-hd .fl-c-hd-title a{
+	margin: 10px 0 0 30px;
+	color: white;
+}
+.fl-cake-b-hd .fl-c-hd-title a:hover{
+	color: white !important;
+}
+.fl-cake-b-hd .f-c-hd-city{
+	float: right;
+}
+.fl-cake-b-hd ul li{
+	margin: 0 14px;
+	height: 46px;
+	line-height: 46px;
+}
+.fl-c-b-brands ul{
+	margin-top: 10px;
+}
+.fl-c-b-brands ul li{
+	margin: 10px 38px;
+}
+.fl-c-b-product{
+	margin-top: 20px;
+	background-color: #F7F9FA;
+}
+.fl-c-b-product ul li{
+	margin:20px 12px 0 0 ;
+	width: 230px;
+	height: 328px;
+	background-color: white;
+}
+.fl-c-b-product ul li:nth-child(1){
+	margin-left: 0;
+}
+.fl-c-b-product ul li:nth-child(5){
+	margin-right: 0;
+}
+.fl-c-b-product ul a{
+	width: 100%;
+}
+.fl-c-b-product ul img{
+	margin: 5px 6px;
+	width: 215px;
+}
+.fl-c-b-product ul p{
+	margin: 5px auto 0;
+	width: 200px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fl-c-b-product li a p:nth-child(3){
+	font-weight: bolder;
+}
+.fl-c-b-product li a p:nth-child(4){
+	font-size: 12px;
+	color: gray;
 }
