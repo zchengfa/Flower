@@ -101,7 +101,6 @@ body{
 #flower-section{
 	margin-top: 120px;
 	width: 100%;
-	height: 300px;
 }
 #flower-section .category-box{
 	margin: 1rem auto 0;
@@ -297,7 +296,6 @@ body{
 /*鲜花专区*/
 #flower-section .fl-wrapper{
 	width: 100%;
-	height: 6000px;
 	background-color: #F7F9FA;
 }
 .fl-wrapper .flower{
@@ -502,4 +500,141 @@ body{
 	font-size: 12px;
 	color: gray;
 	text-indent: 10px;
+}
+/*热点资讯部分*/
+.fl-serever{
+	width: 100%;
+}
+.hot-news-hd{
+	border-bottom: 1px solid gainsboro;
+}
+.hot-news-box h4 {
+	float: left;
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight:bold;
+}
+.hot-news-box a{
+	float: right;
+	padding: 15px 20px;
+	font-size: 14px;
+}
+.hot-news-list ul{
+	height: 220px;
+}
+.hot-news-list ul li{
+	margin: 5px 20px;
+	text-indent: 10px;
+	color: gainsboro;
+	list-style-type: disc;
+}
+.hot-news-list li a{
+	padding: 0;
+	width: 334px;
+	color: black;
+	text-indent: 0;
+}
+.f-serever-list{
+	margin-top:30px;
+	background-color: #F7F9FA;
+}
+.f-serever-list .f-serever-item{
+	margin-top: 40px;
+	margin-right: 79px;
+	width: 20%;
+	height: 45px;
+}
+.f-serever-item:nth-child(4),
+.f-serever-item:nth-child(8){
+	margin-right: 0;
+	text-align: right;
+}
+.f-serever-item a{
+	position: relative;
+	top:-15px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: 20px;
+}
+.f-serever-item img{
+	width: 42px;
+	height: 42px;
+	border-radius: 21px;
+}
+/*帮助部分*/
+.fl-help-box{
+	border-top: 1px solid gainsboro;
+	background-color: #F7F9FA;
+}
+.help-box-item{
+	float: left;
+	width: 19%;	
+}
+.help-box-item h4{
+	height: 45px;
+	line-height: 45px;
+}
+.help-box-item a{
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: gray;
+}
+.help-serever a,
+.help-city a{
+	width: 80px;
+}
+.help-contact a{
+	display: block;
+}
+.help-contact div a:last-child{
+	width: 110px;
+	height: 36px;
+	color: white;
+	text-indent: 10px;
+	background-color: #F57544;
+	border-radius: 18px;
+}
+.help-contact div img{
+	position: relative;
+	top:8px;
+}
+.help-contact div a:last-child:hover{
+	color: white !important;
+}
+.help-qrcode{
+	margin-top: 40px;
+	width: 288px;
+}
+/*尾部*/
+#flower-foot{
+	width: 100%;
+	height: 200px;
+	background-color:#232628;
+	color: #71797F;
+}
+.foot-container{
+	margin: 0 auto;
+	width: 1200px;	
+	font-size: 12px;
+}
+.foot-container a,
+.foot-container p{
+	color: #71797F;
+}
+.foot-nav{
+	margin: 20px 0;
+}
+.foot-nav a{
+	padding:0 28px;
+	font-size: 16px;
+	border-right: 1px solid gainsboro;
+	color: gainsboro;
+}
+.foot-nav a:first-child{
+	padding-left: 0;
+}
+.foot-nav a:last-child{
+	border-right:none ;
 }
