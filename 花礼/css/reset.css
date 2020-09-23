@@ -24,6 +24,9 @@ a,button{
 button{
 	border: none;
 }
+input:focus{
+	outline: none;
+}
 .clearfix::after{
 	display: block;
 	content: "";
